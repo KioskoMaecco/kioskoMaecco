@@ -99,5 +99,10 @@ namespace kioskotem
         {
             Response.Redirect("Recuperar.aspx");
         }
+
+        protected void LinkButton2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Soporte.aspx");
+        }
     }
 }

@@ -72,6 +72,9 @@
           
                 </div>
                 <!-- /.col -->
+                  <div class="col-xs-8">
+                      <asp:LinkButton  ID="LinkButton2" runat="server"  onclick="LinkButton2_Click" >Contacto Soporte</asp:LinkButton>
+                      </div>
               </div>
       </ContentTemplate>
     </asp:UpdatePanel>

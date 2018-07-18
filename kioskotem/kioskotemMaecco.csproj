@@ -79,6 +79,7 @@
     <Content Include="configurar\Actualizar.aspx" />
     <Content Include="configurar\contra.aspx" />
     <Content Include="configurar\correo.aspx" />
+    <Content Include="Soporte.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="descargar.aspx" />
     <Content Include="dist\css\AdminLTE.css" />
@@ -1131,6 +1132,13 @@
     </Compile>
     <Compile Include="configurar\correo.aspx.designer.cs">
       <DependentUpon>correo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Soporte.aspx.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Soporte.aspx.designer.cs">
+      <DependentUpon>Soporte.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

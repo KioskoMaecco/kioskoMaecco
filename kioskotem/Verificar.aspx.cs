@@ -31,7 +31,7 @@ namespace kioskotem
                         if (ValidarConfirmacion != null)
                         {
 
-                            Tabla MiTabla = Manejador.getEjecutaStoredProcedure1("setVerificarEmail", Session["idusuario"].ToString() + "|" + Session["idcodigo"].ToString());
+                            Tabla MiTabla = Manejador.getEjecutaStoredProcedure1("setVerificarEmail", claveAcceso);
 
                             if (MiTabla != null)
                             {

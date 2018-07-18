@@ -187,5 +187,56 @@ public class EnviarCorreos
         return confirmacionCliente;
     }
 
+    public static string envioSoporte(string codigo, string nombre, string mensaje, string correo)
+    {
+        string CuerpoMail;
+
+        CuerpoMail = "";
+        CuerpoMail = "<html>" ;
+        CuerpoMail += "<head>";
+        CuerpoMail += "<title>MAECCO SA </title>";
+        CuerpoMail += "</head>";
+        CuerpoMail += "<body>";
+        CuerpoMail += "<form>";
+        CuerpoMail += "<div>";
+        CuerpoMail += "<table border='1' cellspacing='0' cellpadding='2' bordercolor='000000' style=' width :700px; height : auto ; margin : 0 auto; border: 1px solid #000; font-size :11px; font-family :Verdana ;' >"; 
+        CuerpoMail += "<tr>";
+        CuerpoMail += "<td colspan='2'>";
+        CuerpoMail += "Tiene un comentario o problema el usuario: "+ correo ;
+        CuerpoMail += "</td>";
+        CuerpoMail += "</tr>";
+        CuerpoMail += "<tr>";
+        CuerpoMail += "<td colspan='2' align='center'>";
+        CuerpoMail += "<strong>Datos del empleado</strong>";
+        CuerpoMail += "</td>";
+        CuerpoMail += "</tr>";
+        CuerpoMail += "<tr style='" + "font-weight :bold ;" + "'>";
+        CuerpoMail += "<td style='" + "text-align:center; " + "'>Codigo Empleado</td>";
+        CuerpoMail += "<td style='" + "text-align:center;'" + ">" + codigo + "</td>";
+        CuerpoMail += "</tr>";
+        CuerpoMail += "<tr style='" + "font-weight :bold ;" + "'>";
+        CuerpoMail += "<td style='" + "text-align:center; " + "'>Usuario:</td>";
+        CuerpoMail += "<td style='" + "text-align:center;'" + ">" + nombre + "</td>";
+        CuerpoMail += "</tr>";
+
+        CuerpoMail += "<tr style='" + "font-weight :bold ;" + "'>";
+        CuerpoMail += "<td style='" + "text-align:center; " + "'>Mensaje: </td>";
+        CuerpoMail += "<td style='" + "text-align:center;'" + ">" + mensaje + "</td>";
+        CuerpoMail += "</tr>";
+
+        CuerpoMail += "</table>";
+        CuerpoMail += "</div>";
+        CuerpoMail += "</form>";
+        CuerpoMail += "</body>";
+        CuerpoMail += "</html>";
+
+
+
+
+        return CuerpoMail;
+
+
+
+    }
 
 }
