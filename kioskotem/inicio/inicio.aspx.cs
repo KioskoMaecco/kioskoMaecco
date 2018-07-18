@@ -41,7 +41,7 @@ namespace kioskotem
                     if (differenceInDays >= 90)
                     {
                         // Response.Redirect("/configurar/Contra.aspx");
-                        Response.Redirect("http://www.maecco.net/recibos/Pass.aspx");
+                        Response.Redirect("/Pass.aspx");
                         // ScriptManager.RegisterStartupScript(this, typeof(string), "alerta", "alert('Necesita actualizar su contraseña por seguridad');", true);
                     }
 
