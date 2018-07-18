@@ -138,12 +138,13 @@
       <ul class="sidebar-menu">
         <li class="header">NOMINA </li>
 
-        <li><a href="../nomina/comprobante.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Comprobante de nomina</span></a></li>
-        <li><a href="../nomina/sindicato.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Sindicato</span></a></li>
-         <li><a href="../nomina/simple.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Timbrado Simple </span></a></li>
+        <li><a href="../nomina/comprobante.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Transferencia bancaria</span></a></li>
+          <li><a href="../nomina/timbrado.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Timbrado (Nomina A)</span></a></li>
+          <li><a href="../nomina/sindicato.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Sindicato (Nomina B)</span></a></li>
+         <li><a href="../nomina/simple.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Simple </span></a></li>
       
-        <li><a href="../nomina/sa.aspx"><i class="fa fa-circle-o text-aqua"></i> R<span>ecibo SA</span></a></li>
-        <li><a href="../nomina/timbrado.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Timbrado</span></a></li>
+       <%-- <li><a href="../nomina/sa.aspx"><i class="fa fa-circle-o text-aqua"></i> Recibo SA</span></a></li>--%>
+      
         <%--<li class="treeview">
           <a href="#">
             <i class="fa fa-dashboard"></i> <span>Dashboard</span> <i class="fa fa-angle-left pull-right"></i>

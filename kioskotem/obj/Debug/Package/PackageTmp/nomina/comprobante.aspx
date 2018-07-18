@@ -6,7 +6,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section class="content-header">
       <h1>
-        Comprobantes de pago de nomina
+        <%--Comprobantes de pago de nomina--%>
+        Transferencia bancaria
         <small><asp:Label ID="lblnombre" runat="server" Text=""></asp:Label></small>
       </h1>
       <ol class="breadcrumb">

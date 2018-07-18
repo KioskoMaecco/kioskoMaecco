@@ -144,7 +144,7 @@
     <file relUrl="plugins/ckeditor/lang/ka.js" publishTime="09/20/2016 19:12:14" />
     <file relUrl="plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.js" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" publishTime="09/20/2016 19:12:15" />
-    <file relUrl="bootstrap/css/bootstrap.min.css" publishTime="09/20/2016 19:12:12" />
+    <file relUrl="bootstrap/css/bootstrap.min.css" publishTime="07/18/2018 14:36:25" />
     <file relUrl="plugins/ckeditor/lang/ja.js" publishTime="09/20/2016 19:12:14" />
     <file relUrl="pages/forms/advanced.html" publishTime="09/20/2016 19:12:13" />
     <file relUrl="plugins/pace/pace.css" publishTime="09/20/2016 19:12:20" />
@@ -152,7 +152,7 @@
     <file relUrl="pages/examples/500.html" publishTime="09/20/2016 19:12:13" />
     <file relUrl="dist/img/user5-128x128.jpg" publishTime="09/20/2016 19:12:13" />
     <file relUrl="plugins/iCheck/minimal/pink.css" publishTime="09/20/2016 19:12:19" />
-    <file relUrl="Pass.aspx" publishTime="01/23/2018 18:24:17" />
+    <file relUrl="Pass.aspx" publishTime="07/18/2018 18:08:53" />
     <file relUrl="plugins/datatables/extensions/FixedHeader/examples/top_left_right.html" publishTime="09/20/2016 19:12:17" />
     <file relUrl="dist/js/pages/dashboard2.js" publishTime="09/20/2016 19:12:13" />
     <file relUrl="plugins/datatables/extensions/TableTools/examples/index.html" publishTime="09/20/2016 19:12:18" />
@@ -224,7 +224,7 @@
     <file relUrl="plugins/ckeditor/samples/old/appendto.html" publishTime="09/20/2016 19:12:15" />
     <file relUrl="plugins/datatables/extensions/FixedColumns/examples/col_filter.html" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/datatables/extensions/FixedColumns/examples/left_right_columns.html" publishTime="09/20/2016 19:12:17" />
-    <file relUrl="home.Master" publishTime="06/29/2018 17:08:17" />
+    <file relUrl="home.Master" publishTime="07/18/2018 17:07:33" />
     <file relUrl="plugins/ckeditor/lang/ro.js" publishTime="09/20/2016 19:12:14" />
     <file relUrl="pages/widgets.html" publishTime="09/20/2016 19:12:13" />
     <file relUrl="plugins/flot/jquery.flot.pie.js" publishTime="09/20/2016 19:12:19" />
@@ -261,7 +261,7 @@
     <file relUrl="plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" publishTime="09/20/2016 19:12:15" />
     <file relUrl="pages/calendar.html" publishTime="09/20/2016 19:12:13" />
     <file relUrl="pages/charts/flot.html" publishTime="09/20/2016 19:12:13" />
-    <file relUrl="nomina/sa.aspx" publishTime="09/24/2016 21:40:28" />
+    <file relUrl="nomina/sa.aspx" publishTime="07/18/2018 17:07:33" />
     <file relUrl="plugins/datatables/extensions/FixedHeader/examples/two_tables.html" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" publishTime="09/20/2016 19:12:15" />
     <file relUrl="dist/img/credit/mastercard.png" publishTime="09/20/2016 19:12:13" />
@@ -278,7 +278,7 @@
     <file relUrl="plugins/datatables/extensions/FixedColumns/examples/colvis.html" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/input-mask/jquery.inputmask.extensions.js" publishTime="09/20/2016 19:12:19" />
-    <file relUrl="ValidarEmail.aspx" publishTime="01/23/2018 18:53:52" />
+    <file relUrl="ValidarEmail.aspx" publishTime="07/18/2018 14:34:00" />
     <file relUrl="plugins/datatables/extensions/AutoFill/examples/index.html" publishTime="09/20/2016 19:12:16" />
     <file relUrl="plugins/flot/jquery.flot.stack.js" publishTime="09/20/2016 19:12:19" />
     <file relUrl="plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" publishTime="09/20/2016 19:12:15" />
@@ -294,7 +294,7 @@
     <file relUrl="plugins/ckeditor/lang/sq.js" publishTime="09/20/2016 19:12:14" />
     <file relUrl="plugins/select2/i18n/nb.js" publishTime="09/20/2016 19:12:20" />
     <file relUrl="plugins/bootstrap-slider/slider.css" publishTime="09/20/2016 19:12:13" />
-    <file relUrl="bin/kioskotem.dll" publishTime="07/18/2018 13:52:06" />
+    <file relUrl="bin/kioskotem.dll" publishTime="07/18/2018 18:14:39" />
     <file relUrl="plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" publishTime="09/20/2016 19:12:15" />
     <file relUrl="dist/css/skins/skin-green-light.css" publishTime="09/20/2016 19:12:13" />
     <file relUrl="plugins/flot/jquery.flot.errorbars.min.js" publishTime="09/20/2016 19:12:19" />
@@ -313,7 +313,7 @@
     <file relUrl="plugins/datatables/extensions/ColReorder/examples/fixedcolumns.html" publishTime="09/20/2016 19:12:16" />
     <file relUrl="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" publishTime="09/20/2016 19:12:20" />
     <file relUrl="plugins/iCheck/square/aero@2x.png" publishTime="09/20/2016 19:12:19" />
-    <file relUrl="nomina/timbrado.aspx" publishTime="09/24/2016 21:40:28" />
+    <file relUrl="nomina/timbrado.aspx" publishTime="07/18/2018 17:07:33" />
     <file relUrl="plugins/ckeditor/lang/eo.js" publishTime="09/20/2016 19:12:14" />
     <file relUrl="plugins/select2/i18n/pt.js" publishTime="09/20/2016 19:12:20" />
     <file relUrl="plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" publishTime="09/20/2016 19:12:15" />
@@ -349,9 +349,9 @@
     <file relUrl="plugins/datatables/extensions/ColVis/examples/two_tables_identical.html" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/iCheck/square/purple@2x.png" publishTime="09/20/2016 19:12:19" />
     <file relUrl="plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" publishTime="09/20/2016 19:12:16" />
-    <file relUrl="nomina/comprobante.aspx" publishTime="12/01/2016 12:02:49" />
+    <file relUrl="nomina/comprobante.aspx" publishTime="07/18/2018 17:07:33" />
     <file relUrl="plugins/datatables/extensions/FixedHeader/js/dataTables.fixedHeader.js" publishTime="09/20/2016 19:12:17" />
-    <file relUrl="nomina/sindicato.aspx" publishTime="09/24/2016 21:40:28" />
+    <file relUrl="nomina/sindicato.aspx" publishTime="07/18/2018 17:07:32" />
     <file relUrl="plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" publishTime="09/20/2016 19:12:15" />
     <file relUrl="plugins/datatables/jquery.dataTables_themeroller.css" publishTime="09/20/2016 19:12:18" />
     <file relUrl="plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" publishTime="09/20/2016 19:12:15" />
@@ -571,7 +571,7 @@
     <file relUrl="plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/datepicker/locales/bootstrap-datepicker.ru.js" publishTime="09/20/2016 19:12:18" />
     <file relUrl="dist/css/skins/skin-yellow-light.min.css" publishTime="09/20/2016 19:12:13" />
-    <file relUrl="bin/kioskotem.pdb" publishTime="07/18/2018 13:52:06" />
+    <file relUrl="bin/kioskotem.pdb" publishTime="07/18/2018 18:14:39" />
     <file relUrl="plugins/datatables/extensions/ColVis/examples/jqueryui.html" publishTime="09/20/2016 19:12:17" />
     <file relUrl="Gruntfile.js" publishTime="09/20/2016 19:12:13" />
     <file relUrl="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" publishTime="09/20/2016 19:12:13" />
@@ -702,6 +702,7 @@
     <file relUrl="plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js" publishTime="09/20/2016 19:12:18" />
     <file relUrl="plugins/datepicker/locales/bootstrap-datepicker.lv.js" publishTime="09/20/2016 19:12:18" />
     <file relUrl="plugins/colorpicker/bootstrap-colorpicker.min.js" publishTime="09/20/2016 19:12:16" />
+    <file relUrl="Soporte.aspx" publishTime="07/18/2018 16:00:03" />
     <file relUrl=".gitignore" publishTime="09/20/2016 19:12:12" />
     <file relUrl="plugins/flot/jquery.flot.stack.min.js" publishTime="09/20/2016 19:12:19" />
     <file relUrl="plugins/iCheck/square/green.css" publishTime="09/20/2016 19:12:19" />
@@ -771,7 +772,7 @@
     <file relUrl="plugins/iCheck/flat/pink.css" publishTime="09/20/2016 19:12:19" />
     <file relUrl="plugins/datepicker/locales/bootstrap-datepicker.fi.js" publishTime="09/20/2016 19:12:18" />
     <file relUrl="plugins/iCheck/minimal/pink@2x.png" publishTime="09/20/2016 19:12:19" />
-    <file relUrl="Default.aspx" publishTime="05/22/2018 17:22:07" />
+    <file relUrl="Default.aspx" publishTime="07/18/2018 15:41:51" />
     <file relUrl="plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" publishTime="09/20/2016 19:12:15" />
     <file relUrl="dist/img/credit/paypal.png" publishTime="09/20/2016 19:12:13" />
     <file relUrl="pages/UI/sliders.html" publishTime="09/20/2016 19:12:13" />

@@ -14,7 +14,12 @@ namespace kioskotem
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                Session.Abandon();
+                Response.Cookies.Add(new HttpCookie("ASP.NET_SessionId", ""));
+                
+            }
         }
 
         protected void cmdaceptar_Click(object sender, EventArgs e)

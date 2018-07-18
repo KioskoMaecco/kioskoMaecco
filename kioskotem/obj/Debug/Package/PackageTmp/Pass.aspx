@@ -6,7 +6,7 @@
 <head id="Head1" runat="server">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Operadora Mx</title>
+  <title>Maecco SA</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -36,10 +36,8 @@
 </head>
 <body id="Body1" class="hold-transition login-page" runat="server" >
    <div class="login-box">
-  <div class="login-logo">
-    
-      <img alt="" class="style2" src="imagenes/logooperadora.png" 
-          style="page-break-inside: avoid; max-width: 100%;" />
+ <div class="login-logo">
+    <a href="#"><b>Maecco</b>SA</a>
   </div>
      
  <div class="login-box-body" >
