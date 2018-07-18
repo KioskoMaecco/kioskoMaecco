@@ -1,0 +1,6 @@
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\bin\kioskotem.dll.config
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\bin\kioskotem.dll
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\bin\kioskotem.pdb
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\obj\Release\kioskotem.csprojResolveAssemblyReference.cache
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\obj\Release\kioskotem.dll
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\obj\Release\kioskotem.pdb

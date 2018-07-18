@@ -1,0 +1,21 @@
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\bin\kioskotem.dll
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\bin\kioskotem.pdb
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\obj\Debug\kioskotem.dll
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\obj\Debug\kioskotem.pdb
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\bin\Telerik.Web.UI.dll
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\bin\Telerik.Web.UI.xml
+C:\systemw\proyectos\kiosko recibos\template kiosko2\kioskotem\kioskotem\obj\Debug\kioskotem.csprojResolveAssemblyReference.cache
+D:\orig\kiosko Maecco\kioskotem\kioskotem\obj\Debug\kioskotem.csprojResolveAssemblyReference.cache
+D:\orig\kiosko Maecco\kioskotem\kioskotem\bin\kioskotem.dll
+D:\orig\kiosko Maecco\kioskotem\kioskotem\bin\kioskotem.pdb
+D:\orig\kiosko Maecco\kioskotem\kioskotem\bin\Telerik.Web.UI.dll
+D:\orig\kiosko Maecco\kioskotem\kioskotem\bin\Telerik.Web.UI.xml
+D:\orig\kiosko Maecco\kioskotem\kioskotem\obj\Debug\kioskotem.dll
+D:\orig\kiosko Maecco\kioskotem\kioskotem\obj\Debug\kioskotem.pdb
+D:\Original\kiosko Maecco\kioskotem\kioskotem\bin\kioskotem.dll
+D:\Original\kiosko Maecco\kioskotem\kioskotem\bin\kioskotem.pdb
+D:\Original\kiosko Maecco\kioskotem\kioskotem\bin\Telerik.Web.UI.dll
+D:\Original\kiosko Maecco\kioskotem\kioskotem\bin\Telerik.Web.UI.xml
+D:\Original\kiosko Maecco\kioskotem\kioskotem\obj\Debug\kioskotem.dll
+D:\Original\kiosko Maecco\kioskotem\kioskotem\obj\Debug\kioskotem.pdb
+D:\Original\kiosko Maecco\kioskotem\kioskotem\obj\Debug\kioskotem.csprojResolveAssemblyReference.cache

@@ -1,0 +1,7 @@
+D:\Original\kiosko Maecco\kioskotem\kioskotem\bin\kioskotem.dll
+D:\Original\kiosko Maecco\kioskotem\kioskotem\bin\kioskotem.pdb
+D:\Original\kiosko Maecco\kioskotem\kioskotem\bin\Telerik.Web.UI.dll
+D:\Original\kiosko Maecco\kioskotem\kioskotem\bin\Telerik.Web.UI.xml
+D:\Original\kiosko Maecco\kioskotem\kioskotem\obj\Debug\kioskotemMaecco.csprojResolveAssemblyReference.cache
+D:\Original\kiosko Maecco\kioskotem\kioskotem\obj\Debug\kioskotem.dll
+D:\Original\kiosko Maecco\kioskotem\kioskotem\obj\Debug\kioskotem.pdb
