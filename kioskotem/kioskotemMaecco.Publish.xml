@@ -278,7 +278,7 @@
     <file relUrl="plugins/datatables/extensions/FixedColumns/examples/colvis.html" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/datatables/extensions/KeyTable/js/dataTables.keyTable.min.js" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/input-mask/jquery.inputmask.extensions.js" publishTime="09/20/2016 19:12:19" />
-    <file relUrl="ValidarEmail.aspx" publishTime="07/18/2018 14:34:00" />
+    <file relUrl="ValidarEmail.aspx" publishTime="07/19/2018 13:02:04" />
     <file relUrl="plugins/datatables/extensions/AutoFill/examples/index.html" publishTime="09/20/2016 19:12:16" />
     <file relUrl="plugins/flot/jquery.flot.stack.js" publishTime="09/20/2016 19:12:19" />
     <file relUrl="plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" publishTime="09/20/2016 19:12:15" />
@@ -294,7 +294,7 @@
     <file relUrl="plugins/ckeditor/lang/sq.js" publishTime="09/20/2016 19:12:14" />
     <file relUrl="plugins/select2/i18n/nb.js" publishTime="09/20/2016 19:12:20" />
     <file relUrl="plugins/bootstrap-slider/slider.css" publishTime="09/20/2016 19:12:13" />
-    <file relUrl="bin/kioskotem.dll" publishTime="07/18/2018 18:14:39" />
+    <file relUrl="bin/kioskotem.dll" publishTime="07/19/2018 13:02:05" />
     <file relUrl="plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" publishTime="09/20/2016 19:12:15" />
     <file relUrl="dist/css/skins/skin-green-light.css" publishTime="09/20/2016 19:12:13" />
     <file relUrl="plugins/flot/jquery.flot.errorbars.min.js" publishTime="09/20/2016 19:12:19" />
@@ -571,7 +571,7 @@
     <file relUrl="plugins/datatables/extensions/FixedColumns/js/dataTables.fixedColumns.min.js" publishTime="09/20/2016 19:12:17" />
     <file relUrl="plugins/datepicker/locales/bootstrap-datepicker.ru.js" publishTime="09/20/2016 19:12:18" />
     <file relUrl="dist/css/skins/skin-yellow-light.min.css" publishTime="09/20/2016 19:12:13" />
-    <file relUrl="bin/kioskotem.pdb" publishTime="07/18/2018 18:14:39" />
+    <file relUrl="bin/kioskotem.pdb" publishTime="07/19/2018 13:02:04" />
     <file relUrl="plugins/datatables/extensions/ColVis/examples/jqueryui.html" publishTime="09/20/2016 19:12:17" />
     <file relUrl="Gruntfile.js" publishTime="09/20/2016 19:12:13" />
     <file relUrl="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" publishTime="09/20/2016 19:12:13" />

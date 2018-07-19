@@ -6,7 +6,7 @@
 <head runat="server">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="refresh" content="5; url=default.aspx" />
+ <%-- <meta http-equiv="refresh" content="5; url=default.aspx" />--%>
   <title>Maecco SA</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -71,8 +71,9 @@
                 <div class="col-xs-4">
             
                         <asp:Button ID="cmdSend" runat="server" Text="Enviar" type="submit" 
-                            class="btn btn-primary btn-block btn-flat" onclick="cmdenviar_Click" />
+                            class="btn btn-primary btn-block btn-flat" onclick="cmdenviar_Click"  />
           
+    
                 </div>
                 <!-- /.col -->
                   <asp:Label ID="lblMensaje" runat="server" 
@@ -83,5 +84,20 @@
     </form>
 
     </div>
+
+    
+    <script type="text/javascript">
+//      var boton = document.getElementById("cmdSend");
+//       // cuando se pulsa en el enlace
+        function validarart(form) {
+           var seleccion = confirm("Revise su correo electronico se le ha enviado un mensaje de verificación.");
+           if (seleccion)
+               location.href = "../default.aspx";
+           //usado para que no haga postback el boton de asp.net cuando 
+           //no se acepte el confirm
+           return seleccion;
+       }
+    </script>
+
 </body>
 </html>

@@ -26,6 +26,11 @@ namespace kioskotem
         {
             try
             {
+
+                Session["objusuario"] = " ";
+                Session["idusuario"] = " ";
+                Session["idcodigo"] = " ";
+
                 IsvcKioskoClient Manejador = new IsvcKioskoClient();
                 Tabla MiTabla = Manejador.getEjecutaStoredProcedure1("getvalidarusuario",txtcodigo.Text.Replace(" ","X")  + "|" + txtusuario.Text.Replace(" ","X") + "|" + txtcontra.Text.Replace(" ","X") );
                 if (MiTabla != null)
