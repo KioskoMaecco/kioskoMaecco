@@ -44,24 +44,28 @@ namespace kioskotem.nomina
                 if (e.CommandName == "Select")
                 {
                     int id = Convert.ToInt32(e.CommandArgument);
-                    //Session["Banfactura"] = "2";
-                    //Session["idfactura"] = ((Label)dtgnominas.Rows[id].FindControl("lblidfactura")).Text;
-                    //cboempresa.SelectedValue = ((Label)dtgnominas.Rows[id].FindControl("lblidempresa")).Text;
-
                     DateTime fecha = DateTime.Parse(((Label)dtgnominas.Rows[id].FindControl("lblfecha")).Text);
+                    String path;
+                    string carpetab = ((Label)dtgnominas.Rows[id].FindControl("lblb")).Text;
 
-                    //String dlDir = @"archivo/";
-                    String path = Server.MapPath("../recibosn") + "\\" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
-                    Session["ruta"] = "recibosn/" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
-                    //Response.Redirect("../descargar.aspx",false);
-                    //Download("../recibosn/" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf"); 
-                    String path2 = "../recibosn" + "\\" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
+                    if (carpetab != "")
+                    {
+                        path = Server.MapPath("../recibosn/") + carpetab  +"\\" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
+                        Session["ruta"] = "recibosn/" + carpetab + "\\" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
+                        String path2 = "../recibosn/" + carpetab + "\\" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
+                    }
+                    else
+                    {
+                        path = Server.MapPath("../recibosn") + "\\" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
+                        Session["ruta"] = "recibosn/" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
+                        String path2 = "../recibosn" + "\\" + fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
+                    }
 
                     Session["archivo"] = fecha.Month.ToString("00") + fecha.Year.ToString() + Session["idcodigo"].ToString() + "F.pdf";
                     System.IO.FileInfo toDownload = new System.IO.FileInfo(path);
                     if (toDownload.Exists)
                     {
-                        //ScriptManager.RegisterStartupScript(Page, Page.GetType(), "popup", "window.open('" + path2 + "','_blank')", true);
+                               
                         Response.Redirect("../descargar.aspx", false);
                         
 
@@ -151,6 +155,7 @@ namespace kioskotem.nomina
                     for (int x = 0; x < dtEmpresas.Rows.Count; x++)
                     {
                         dsEmpresas.Tables[0].Rows.Add(dtEmpresas.Rows[x]["iIdPago"],
+                                                        //DateTime.Parse(dtEmpresas.Rows[x]["Fecha"].ToString().Remove(18)),
                                                         DateTime.Parse(dtEmpresas.Rows[x]["Fecha"].ToString()).ToShortDateString(),
                                                         dtEmpresas.Rows[x]["importe"]);
                                                         

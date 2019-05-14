@@ -38,9 +38,7 @@ namespace kioskotem
                     DataTable dtusuario =  clFunciones.convertToDatatable(MiTabla);
                     if (dtusuario.Rows[0]["fkIdPerfil"].ToString() == "1")
                     {
-
                         Response.Redirect("Buscar.aspx");
-
                     }
                     else
                     {
@@ -50,6 +48,7 @@ namespace kioskotem
                             Session["idusuario"] = dtusuario.Rows[0]["IdUsuario"].ToString();
                             Session["idcodigo"] = dtusuario.Rows[0]["codigo"].ToString();
                             Response.Redirect("privacidad.aspx");
+                            Session["inicio"] = "0";
                         }
                         //ValidateMail
                         else
@@ -60,6 +59,7 @@ namespace kioskotem
                                 Session["idusuario"] = dtusuario.Rows[0]["IdUsuario"].ToString();
                                 Session["idcodigo"] = dtusuario.Rows[0]["codigo"].ToString();
                                 Response.Redirect("ValidarEmail.aspx");
+                                Session["inicio"] = "0";
                             }
                             else
                             {
@@ -69,7 +69,7 @@ namespace kioskotem
                                 Session["idcodigo"] = dtusuario.Rows[0]["codigo"].ToString();
                                 Response.Redirect("inicio/inicio.aspx", false);
 
-
+                                Session["inicio"] = "0";
 
                             }
                         }

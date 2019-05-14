@@ -33,7 +33,7 @@ namespace kioskotem
 
 
             string enviosoporte = EnviarCorreos.envioSoporte(usuario, nombre, descripcion , correo);
-            string asuntoConfirmar = "Contacto Soporte del usuario"+ nombre;
+            string asuntoConfirmar = "Contacto Soporte del usuario "+ nombre;
 
             if (EnviarCorreos.enviarCorreo("soporte@mbcgroup.mx", enviosoporte, asuntoConfirmar) == false)
             {
@@ -46,7 +46,8 @@ namespace kioskotem
 
                // ScriptManager.RegisterStartupScript(this.UpdatePanel1, typeof(string), "alerta", "alert('Se ha enviado correctamente.');", true)
 
-                Response.Redirect("/default.aspx");
+                ScriptManager.RegisterStartupScript(this.UpdatePanel1, typeof(string), "alerta", "validarart();", true);
+
      
             }
 

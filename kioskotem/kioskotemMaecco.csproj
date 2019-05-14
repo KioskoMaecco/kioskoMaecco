@@ -79,6 +79,7 @@
     <Content Include="configurar\Actualizar.aspx" />
     <Content Include="configurar\contra.aspx" />
     <Content Include="configurar\correo.aspx" />
+    <Content Include="nomina\Asimilados.aspx" />
     <Content Include="Soporte.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="descargar.aspx" />
@@ -1132,6 +1133,13 @@
     </Compile>
     <Compile Include="configurar\correo.aspx.designer.cs">
       <DependentUpon>correo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nomina\Asimilados.aspx.cs">
+      <DependentUpon>Asimilados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nomina\Asimilados.aspx.designer.cs">
+      <DependentUpon>Asimilados.aspx</DependentUpon>
     </Compile>
     <Compile Include="Soporte.aspx.cs">
       <DependentUpon>Soporte.aspx</DependentUpon>

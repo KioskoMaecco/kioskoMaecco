@@ -26,7 +26,7 @@ namespace kioskotem
             Session["ruta"] = "";
             Session["archivo"] = "";
             Session["inicio"] = "";
-
+            Session["idtmp"] = "";
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)

@@ -141,6 +141,7 @@
         <li><a href="../nomina/comprobante.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Transferencia bancaria</span></a></li>
           <li><a href="../nomina/timbrado.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Timbrado (Nomina A)</span></a></li>
           <li><a href="../nomina/sindicato.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Sindicato (Nomina B)</span></a></li>
+          <li><a href="../nomina/Asimilados.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Asimilado (Nomina B)</span></a></li>
          <li><a href="../nomina/simple.aspx"><i class="fa fa-circle-o text-aqua"></i> <span>Recibo Simple </span></a></li>
       
        <%-- <li><a href="../nomina/sa.aspx"><i class="fa fa-circle-o text-aqua"></i> Recibo SA</span></a></li>--%>

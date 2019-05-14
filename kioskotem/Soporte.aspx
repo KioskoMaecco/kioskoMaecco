@@ -109,5 +109,19 @@
 <!-- Bootstrap 3.3.6 -->
 <script  src="bootstrap/js/bootstrap.min.js"></script>
 
+
+    <script type="text/javascript">
+        //      var boton = document.getElementById("cmdSend");
+        //       // cuando se pulsa en el enlace
+        function validarart(form) {
+            var seleccion = confirm("Su mensaje se ha enviado correctamente.");
+            if (seleccion)
+                location.href = "../default.aspx";
+            //usado para que no haga postback el boton de asp.net cuando 
+            //no se acepte el confirm
+            return seleccion;
+        }
+    </script>
+
 </body>
 </html>

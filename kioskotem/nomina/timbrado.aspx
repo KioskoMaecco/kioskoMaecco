@@ -48,7 +48,7 @@
                                         <asp:Label ID="lblidfactura" runat="server" Text='<%# Bind("iIdPago") %>' Visible="false" ></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
-                                
+                             
                                 
                                 <asp:TemplateField HeaderText="Fecha">
                                     <ItemTemplate>
@@ -59,6 +59,11 @@
                                 <asp:TemplateField HeaderText="Importe">
                                     <ItemTemplate>
                                         <asp:Label Width="70px" style=" text-align:right;" ID="lblimporte" runat="server" Text='<%# Bind("importe") %>'  Visible="true" ></asp:Label>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                                <asp:TemplateField >
+                                    <ItemTemplate>
+                                        <asp:Label ID="lblb" runat="server" Text='<%# Bind("dsa") %>' Visible="false" ></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 

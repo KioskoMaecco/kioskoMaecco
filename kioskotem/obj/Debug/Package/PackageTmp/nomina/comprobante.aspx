@@ -58,6 +58,7 @@
                                 <asp:TemplateField HeaderText="">
                                     <ItemTemplate>
                                         <asp:Label ID="lbldpagosin" runat="server" Text='<%# Bind("dpagosin") %>' Visible="false" ></asp:Label>
+                                        
                                     </ItemTemplate>
                                 </asp:TemplateField>
 
@@ -76,6 +77,11 @@
                                 <asp:TemplateField HeaderText="Importe Sin">
                                     <ItemTemplate>
                                         <asp:Label Width="80px" style=" text-align:right;" ID="lblimportesin" runat="server" Text='<%# Bind("importesin") %>'  Visible="true" ></asp:Label>
+                                    </ItemTemplate>
+                                </asp:TemplateField>
+                                <asp:TemplateField >
+                                    <ItemTemplate>
+                                        <asp:Label ID="lblb" runat="server" Text='<%# Bind("dsa") %>' Visible="false" ></asp:Label>
                                     </ItemTemplate>
                                 </asp:TemplateField>
                                 

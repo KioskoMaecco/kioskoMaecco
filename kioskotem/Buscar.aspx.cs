@@ -17,11 +17,9 @@ namespace kioskotem.usuario
             {
                 cargar_clientes();
 
-
             }
 
         }
-
 
 
 
@@ -41,8 +39,11 @@ namespace kioskotem.usuario
                      Session["objusuario"] = dtusuario;
                      Session["idusuario"] = dtusuario.Rows[0]["IdUsuario"].ToString();
                      Session["idcodigo"] = dtusuario.Rows[0]["codigo"].ToString();
+                     Session["idtmp"] = 2;
                      Session["inicio"] = 1;
-            //Response.Redirect("inicio/inicio.aspx");
+
+                    //Response.Redirect("inicio/inicio.aspx");
+
                 }
             }
             else
@@ -65,9 +66,14 @@ namespace kioskotem.usuario
             Session["idusuario"] = dtusuario.Rows[0]["IdUsuario"].ToString();
             Session["idcodigo"] = dtusuario.Rows[0]["codigo"].ToString();
             Session["usuario"] = dtusuario.Rows[0]["nombrec"].ToString();
+            Session["idtmp"] = "2";
+
             Session["inicio"] = 1;
-            Response.Redirect("inicio/inicio.aspx");
+
+                    Response.Redirect("inicio/inicio.aspx");
+            
         }
+
 
     }
 }

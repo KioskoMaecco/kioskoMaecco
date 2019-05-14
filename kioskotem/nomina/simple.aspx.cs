@@ -129,6 +129,10 @@ namespace kioskotem.nomina
             dsEmpresas.Tables[0].Columns.Add("pagob");
             dsEmpresas.Tables[0].Columns.Add("Fecha");
             dsEmpresas.Tables[0].Columns.Add("importe");
+            //dsEmpresas.Tables[0].Columns.Add("dxml");
+
+
+
 
             DateTime inicio = DateTime.Parse(dtpinicio.SelectedDate.ToString());
             DateTime final = DateTime.Parse(dtpfinal.SelectedDate.ToString());
@@ -145,12 +149,19 @@ namespace kioskotem.nomina
                     DataTable dtEmpresas = clFunciones.convertToDatatable(tbEmpresas);
                     for (int x = 0; x < dtEmpresas.Rows.Count; x++)
                     {
-                        dsEmpresas.Tables[0].Rows.Add(dtEmpresas.Rows[x]["iIdPago"],
-                                                    dtEmpresas.Rows[x]["importe"],
-                                                    DateTime.Parse(dtEmpresas.Rows[x]["Fecha"].ToString()).ToShortDateString(),
-                                                    dtEmpresas.Rows[x]["importe"]);
+                        if (dtEmpresas.Rows[x]["dxml"].ToString() == "1")
+                        {
 
+                            dsEmpresas.Tables[0].Rows.Add(dtEmpresas.Rows[x]["iIdPago"],
+                                                        dtEmpresas.Rows[x]["importe"],
+                                                        DateTime.Parse(dtEmpresas.Rows[x]["Fecha"].ToString()).ToShortDateString(),
+                                                        dtEmpresas.Rows[x]["importe"]);
 
+                        }
+                        else
+                        {
+                            lblmensaje.Text = "Sin recibos simples para estos paramentros";
+                        }
 
 
                     }
